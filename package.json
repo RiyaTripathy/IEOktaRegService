@@ -1,0 +1,45 @@
+{
+  "name": "registrationapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "suvadeep",
+  "license": "ISC",
+  "dependencies": {
+    "@okta/oidc-middleware": "^2.0.0",
+    "@okta/okta-sdk-nodejs": "^2.0.1",
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
+    "config": "^3.2.4",
+    "convert-csv-to-json": "0.0.15",
+    "cors": "^2.8.5",
+    "csv-writer": "^1.5.0",
+    "email-templates": "^6.0.0",
+    "exceljs": "^3.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "faker": "^4.1.0",
+    "formidable": "^1.2.1",
+    "handlebars": "^4.5.1",
+    "json2csv": "^4.5.4",
+    "jsontocsv": "^0.3.0",
+    "marklogic": "^2.3.1",
+    "moment": "^2.24.0",
+    "nodemailer": "^6.3.0",
+    "nodemailer-express-handlebars": "^3.1.0",
+    "read-excel-file": "^4.0.3",
+    "xlsx": "^0.15.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2"
+  }
+}
